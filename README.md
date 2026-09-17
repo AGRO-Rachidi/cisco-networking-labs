@@ -87,6 +87,8 @@ dns-server 8.8.8.8
 
 </details>
 
+![Topologie du labo VLAN et routage inter-VLAN](Images/lab1-topology.png)
+
 **Résultat** : toutes les interfaces sont montées correctement, le mode
 simulation de Packet Tracer confirme le passage du trafic entre VLAN via
 les sous-interfaces, et chaque appareil reçoit bien une adresse DHCP
@@ -120,6 +122,8 @@ switchport port-security violation shutdown
 switchport port-security mac-address sticky
 
 </details>
+
+![Topologie du labo ACL étendue et sécurité des ports](Images/lab2-topology.png)
 
 **Résultat**, annotation laissée directement dans le fichier de projet :
 *"Tout est OK ! Commercial ne peut pas communiquer avec admin (ACL
@@ -296,6 +300,8 @@ network 172.16.0.0 0.0.3.255 area 0
 
 </details>
 
+![Topologie du réseau d'entreprise multi-sites](Images/lab6-topology.png)
+
 **Justification du plan d'adressage** : avec 196 appareils attendus et une
 marge de croissance de 50%, un bloc /24 (254 adresses) était trop juste et
 un /23 ne laissait aucune marge réelle. Le choix d'un /22 (1022 adresses)
@@ -318,5 +324,3 @@ partagé avec un poste de travail.
 ## Outils utilisés
 Cisco Packet Tracer 8.x, syntaxe Cisco IOS 15.x. Tous les environnements
 sont des exercices pédagogiques simulés, sans donnée de production.
-
-
