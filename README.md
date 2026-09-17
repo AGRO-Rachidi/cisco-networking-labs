@@ -160,7 +160,7 @@ network 10.0.13.0 0.0.0.3 area 0
 
 </details>
 
-![Topologie finale, OSPF validé](images/lab3-topology-after.png)
+![Topologie finale, OSPF validé](Images/lab3-topology-after.png)
 
 **Résultat**, annotation directe : *"Configuration STATIQUE testée et
 validée. Configuration RIP testée et validée. Configuration OSPF testée et
@@ -202,7 +202,7 @@ ip route 0.0.0.0 0.0.0.0 172.25.10.226
 
 </details>
 
-![Topologie du labo VLSM](images/lab4-topology.png)
+![Topologie du labo VLSM](Images/lab4-topology.png)
 
 **Résultat** : le routage entre VLAN est géré entièrement par le
 commutateur multicouche, sans passer par le routeur (réservé au trafic
@@ -237,7 +237,7 @@ switchport port-security mac-address sticky
 
 </details>
 
-![Topologie de l'architecture sécurisée](images/lab5-topology.png)
+![Topologie de l'architecture sécurisée](Images/lab5-topology.png)
 
 **Ce que ce labo ajoute par rapport aux précédents** : chaque service
 n'accède qu'aux ressources qui lui sont utiles (règle du moindre
